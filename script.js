@@ -7,7 +7,7 @@
         var now = new Date().getTime();
 
         // Find the distance between now an the count down date
-        var distance = new Date("Jan 1, 2026 24:00:00").getTime() - now;
+        var distance = new Date("Jan 1, 2028 24:00:00").getTime() - now;
 
         // Time calculations for days, hours, minutes and seconds
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
